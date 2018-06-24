@@ -1,9 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#f5e9b9"
     tools:context=".MainActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/btn_cao_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginTop="124dp"
+        app:srcCompat="@drawable/cao" />
+
+    <ImageView
+        android:id="@+id/btn_gato_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignTop="@+id/btn_cao_id"
+        app:srcCompat="@drawable/gato" />
+
+    <ImageView
+        android:id="@+id/btn_leao_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginBottom="203dp"
+        app:srcCompat="@drawable/leao" />
+
+    <ImageView
+        android:id="@+id/btn_macaco_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignTop="@+id/btn_leao_id"
+        app:srcCompat="@drawable/macaco" />
+
+    <ImageView
+        android:id="@+id/btn_ovelha_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginBottom="56dp"
+        app:srcCompat="@drawable/ovelha" />
+
+    <ImageView
+        android:id="@+id/btn_vaca_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="49dp"
+        app:srcCompat="@drawable/vaca" />
+</RelativeLayout>
